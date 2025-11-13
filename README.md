@@ -1,4 +1,5 @@
 # lockoutstatus-script
+Скрипт находит устройства, которые привели к блокировке учётной записи в AD
 ```
 $Username = 'agoncharov'
 Get-ADDomainController -fi * | select -exp hostname | % {
